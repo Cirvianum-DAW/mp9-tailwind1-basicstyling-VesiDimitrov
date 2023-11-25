@@ -7,7 +7,7 @@
     <title>Tailwind Showcase</title>
   </head>
   <body>
-    <div class="container mx-auto py-8 bg-slate-100">
+    <div class="container mx-auto py-8 ">
       <h1 class="font-bold m-7 text-3xl">Tailwind Showcase</h1>
       <div class="m-7 p-2 bg-slate-200">
         <h2 class="font-bold">Colors and Backgrounds</h2>
@@ -51,7 +51,7 @@
         <p class="text-right">This is a right-aligned text.</p>
       </div>
       <div class="m-7 p-2 bg-slate-200">
-        <h2>Sizes</h2>
+        <h2 class="font-bold">Sizes</h2>
         <div class="flex">
           <div class="bg-slate-200 w-1/4 h-10 border-slate-500 border-spacing-20 border-2 flex items-center justify-center">XS</div>
           <div class="bg-slate-300 w-1/4 h-10 border-slate-500 border-spacing-20 border-2 flex items-center justify-center">SM</div>
@@ -60,7 +60,7 @@
         </div>
       </div>
       <div class="m-7 p-2 bg-slate-200">
-        <h2>Borders</h2>
+        <h2 class="font-bold">Borders</h2>
         <div class="flex">
           <div class="rounded bg-slate-200 w-1/4 h-10 border-slate-500 border-spacing-20 border-2"></div>
           <div class="rounded-md bg-slate-300 w-1/4 h-10 border-slate-500 border-spacing-20 border-2"></div>
@@ -73,37 +73,37 @@
           <h2 class="font-bold">Margin</h2>
           <div class="bg-slate-200 m-6 border-slate-400 border-2" >This div has a margin of 1.5rem on all sides</div>
           <div class="bg-slate-300 mx-6 my-12 border-slate-400 border-2">This div has a horitzontal margin of 1.5rem and a vertical margin of 3rem</div>
-          <div class="bg-slate-400">This div has a margin of 1rem on the top, 2rem on the right, 3rem on the bottom, and 4rem on the left </div>
+          <div class="bg-slate-400 border-slate-400 mt-4 mr-8 mb-12 ml-16">This div has a margin of 1rem on the top, 2rem on the right, 3rem on the bottom, and 4rem on the left </div>
         </div>
         <div class="m-7 p-4 bg-slate-200">
           <h2 class="font-bold">Padding</h2>
-          <div>This div has a margin of 1.5rem on all sides</div>
-          <div>This div has a horitzontal margin of 1.5rem and a vertical margin of 3rem</div>
-          <div>This div has a margin of 1rem on the top, 2rem on the right, 3rem on the bottom, and 4rem on the left</div>
+          <div class="bg-slate-200 p-4 border-slate-400 border-2">This div has a margin of 1.5rem on all sides</div>
+          <div class="bg-slate-300 px-6 py-12 border-slate-400 border-2">This div has a horitzontal margin of 1.5rem and a vertical margin of 3rem</div>
+          <div class="bg-slate-400 pt-4 pr-8 pb-12 pl-16 border-slate-400 border-2">This div has a margin of 1rem on the top, 2rem on the right, 3rem on the bottom, and 4rem on the left</div>
         </div>
         <div class="m-7 p-4 bg-slate-200">
           <h2 class="font-bold">Card 1</h2>
-          <div class="border-2">
+          <div class="border-2 border-slate-400 rounded-lg p-4">
             <img
               src="https://via.placeholder.com/300x200"
               alt="Placeholder image"
             />
-            <h3 class="font-bold">Card Title</h3>
-            <p>This is a basic card example with an image and no flex.</p>
-            <a href="#">Button</a>
+            <h3 class="font-bold my-2">Card Title</h3>
+            <p class="mb-4">This is a basic card example with an image and no flex.</p>
+            <a class="rounded bg-blue-600 p-2 text-white" href="#">Button</a>
           </div>
         </div>
         <div class="m-7 p-4 bg-slate-200">
-          <h2 class="font-bold">Card 2</h2>
-          <div>
-            <h3 class="font-bold">Card Title</h3>
-            <p>This is a basic card example with no image and no flex.</p>
-            <ul>
+          <h2 class="font-bold ">Card 2</h2>
+          <div class="border-2 border-slate-400 rounded-lg p-4">
+            <h3 class="font-bold mb-2">Card Title</h3>
+            <p class="mb-2">This is a basic card example with no image and no flex.</p>
+            <ul class="mb-4 pl-5 list-disc">
               <li>Item 1</li>
               <li>Item 2</li>
               <li>Item 3</li>
             </ul>
-            <a href="#">Button</a>
+            <a class="rounded bg-blue-600 p-2 text-white" href="#">Button</a>
           </div>
         </div>
         <div class="m-7 p-4 bg-slate-200">
